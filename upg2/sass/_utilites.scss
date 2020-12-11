@@ -1,0 +1,53 @@
+h1 {
+    color: $primary;
+    font-weight: bold;
+}
+
+.title {
+    border-bottom: 3px  solid $primary;
+    margin-bottom: 3rem;
+    color:$primary ;  
+}
+
+.btn {
+    background-color: $primary;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 1rem 3rem;
+    transition-duration: 0.6s;   
+}
+
+.btn:hover {
+    background-color: $light;
+    color: $primary;
+    border: 1px solid $primary;
+    box-shadow: $primary 5px 5px 10px;
+}
+
+.bg {
+    background: rgb(139,91,223);
+    background: radial-gradient(circle, rgba(139,91,223,1) 0%, rgba(77,14,224,1) 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+.center {
+    justify-content: center;
+    padding-top: 10rem;
+}
+@media (min-width: 768px) { .center { padding-top: 15rem;}}
+@media (min-width: 992px) { .center { padding-top: 20rem;}}
+
+.box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 6px 6px 20px $dark;
+}
+
+.lg {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
